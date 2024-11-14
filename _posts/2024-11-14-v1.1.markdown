@@ -48,7 +48,7 @@ _For more changes see the Extended Change Log below_
 1. Open the console (tilde (~) or backtick (\`) key) and type `help` to view available commands
 
 <p class="download">
-  <a class="btn btn-dark btn-lg get-started-btn disabled" href="#" role="button" aria-disabled="true">Download</a> <span>Not available yet</span>
+  <a class="btn btn-dark btn-lg get-started-btn" href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v1.1/SCCT.Versus.Reloaded.1.1.zip" role="button">Download</a>
 </p>
 
 <hr />
