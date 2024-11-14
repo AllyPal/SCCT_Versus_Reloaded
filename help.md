@@ -4,4 +4,4 @@ title: Help
 permalink: /help/
 ---
 
-Arcu risus quis varius quam quisque. Scelerisque in dictum non consectetur a. Leo a diam sollicitudin tempor id eu nisl nunc. Ac felis donec et odio pellentesque diam volutpat commodo. Quis commodo odio aenean sed. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Egestas diam in arcu cursus.
+If you encounter any issues with the patch, please post in the help section of [Discord](https://discord.com/invite/3vsSjrpKPu).

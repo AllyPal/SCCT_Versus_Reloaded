@@ -1,13 +1,33 @@
 ---
 layout: post
-title:  "Reloaded V1.1"
+title:  "Reloaded v1.1"
 date:   2024-11-13 16:32:42 +0000
 categories: releases
-excerpt_separator: <!--more-->
 ---
 
-First release
+_Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is compatible with the stock game and [SCCT Enhanced](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/)._
+
+#### New Features
+* Added a new master server (Ubisoft went offline in 2014)
+* Fixed "Instas" where grenades explode before they should
+* Added support for high FPS and fixed numerous bugs that made high FPS unusable
+* Increased frame timing stability and reduced input lag
+* Added a new mouse input system:
+  * High polling rate mouse support
+  * No negative acceleration
+  * Fine control over mouse sensitivity (via console commands)
+* Added widescreen support for up to 16:9 monitors (without stretched 3D)
+* All resolutions your monitor supports are now selectable in-game
+* Fixed rendering bugs (e.g. Merc flashlight)
+* Fixed spies rubberbanding when getting shot (due to the adrenaline speed boost)
+
+#### Install instructions
+1. Go to your Versus/System directory
+1. Extract the contents of the zip into this directory
+1. You will be prompted to replace SCCT_Versus.exe and should select 'Yes'
+1. Run SCCT_Versus.exe
+1. Open the console (tilde (~) or backtick (`) key) and type 'help' to view available commands
 
 <p class="download">
-  <a class="btn btn-dark btn-lg get-started-btn" href="#" role="button">Download Latest Build</a>
+  <a class="btn btn-dark btn-lg get-started-btn" href="#" role="button">Download</a>
 </p>

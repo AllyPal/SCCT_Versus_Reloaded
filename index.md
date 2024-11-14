@@ -6,6 +6,6 @@
 
 # [Download](https://example.com){: .btn .btn-dark .btn-lg .get-started-btn }
 layout: home
-title: Releases
+title: Downloads
 permalink: /
 ---
