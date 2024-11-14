@@ -12,11 +12,14 @@ carousels:
   - images: 
     - image: /SCCT_Versus_Reloaded/assets/img/ws_before_m.jpg
     - image: /SCCT_Versus_Reloaded/assets/img/ws_after_m.jpg
+  - images: 
+    - image: /SCCT_Versus_Reloaded/assets/img/lod_before.jpg
+    - image: /SCCT_Versus_Reloaded/assets/img/lod_after.jpg
 ---
 
 _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is compatible with the stock game and [SCCT Enhanced](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/)._
 
-#### New Features
+#### Featured Changes
 * Added a new master server to enable online play (Ubisoft went offline in 2016)
 * Fixed "Instas" where grenades explode before they should
 * Added support for high FPS and fixed numerous bugs which made high FPS unusable
@@ -29,6 +32,7 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 * All resolutions your monitor supports are now selectable in-game
 * Fixed rendering bugs (e.g. Merc flashlight)
 * Fixed spies rubberbanding when getting shot (due to the adrenaline speed boost)
+* Fixed sticky cameras sometimes not firing when spies are in motion
 
 #### Install instructions
 1. Go to your `Versus/System` directory
@@ -41,9 +45,12 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
   <a class="btn btn-dark btn-lg get-started-btn" href="#" role="button">Download</a>
 </p>
 
-<hr /><br />
+<hr />
 #### Widescreen fix (Spy)
 {% include carousel.html height="56" unit="%" duration="120" number="1" %}
 
 #### Widescreen fix (Mercenary)
 {% include carousel.html height="56" unit="%" duration="120" number="2" %}
+
+#### Distance model rendering (at max LOD)
+{% include carousel.html height="56" unit="%" duration="120" number="3" %}
