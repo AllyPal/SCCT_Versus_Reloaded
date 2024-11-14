@@ -296,7 +296,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
