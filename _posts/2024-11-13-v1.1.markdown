@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Reloaded V1.1"
+date:   2024-11-13 16:32:42 +0000
+categories: releases
+excerpt_separator: <!--more-->
+---
+
+First release
+
+<p class="download">
+  <a class="btn btn-dark btn-lg get-started-btn" href="#" role="button">Download Latest Build</a>
+</p>
