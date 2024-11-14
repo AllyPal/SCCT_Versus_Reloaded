@@ -3,14 +3,23 @@ layout: post
 title:  "Reloaded v1.1"
 date:   2024-11-13 16:32:42 +0000
 categories: releases
+author: AllyPal
+
+carousels:
+  - images: 
+    - image: /SCCT_Versus_Reloaded/assets/img/ws_before.jpg
+    - image: /SCCT_Versus_Reloaded/assets/img/ws_after.jpg
+  - images: 
+    - image: /SCCT_Versus_Reloaded/assets/img/ws_before_m.jpg
+    - image: /SCCT_Versus_Reloaded/assets/img/ws_after_m.jpg
 ---
 
 _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is compatible with the stock game and [SCCT Enhanced](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/)._
 
 #### New Features
-* Added a new master server (Ubisoft went offline in 2016)
+* Added a new master server to enable online play (Ubisoft went offline in 2016)
 * Fixed "Instas" where grenades explode before they should
-* Added support for high FPS and fixed numerous bugs that made high FPS unusable
+* Added support for high FPS and fixed numerous bugs which made high FPS unusable
 * Increased frame timing stability and reduced input lag
 * Added a new mouse input system:
   * High polling rate mouse support
@@ -22,12 +31,19 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 * Fixed spies rubberbanding when getting shot (due to the adrenaline speed boost)
 
 #### Install instructions
-1. Go to your Versus/System directory
+1. Go to your `Versus/System` directory
 1. Extract the contents of the zip into this directory
-1. You will be prompted to replace SCCT_Versus.exe and should select 'Yes'
-1. Run SCCT_Versus.exe
-1. Open the console (tilde (~) or backtick (`) key) and type 'help' to view available commands
+1. You will be prompted to replace `SCCT_Versus.exe` and should select `Yes`
+1. Run `SCCT_Versus.exe`
+1. Open the console (tilde (~) or backtick (\`) key) and type `help` to view available commands
 
 <p class="download">
   <a class="btn btn-dark btn-lg get-started-btn" href="#" role="button">Download</a>
 </p>
+
+<hr /><br />
+#### Widescreen fix (Spy)
+{% include carousel.html height="56" unit="%" duration="120" number="1" %}
+
+#### Widescreen fix (Mercenary)
+{% include carousel.html height="56" unit="%" duration="120" number="2" %}

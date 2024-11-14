@@ -8,8 +8,12 @@ layout: page
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 {% assign post = paginator.posts.first | default: site.posts.first %}
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 <article class="post">
   <h1>{{ post.title }}</h1>
+  {% if post.author %}
+    <i>{{ post.date | date: date_format }} by <strong>{{ post.author | strip_html }}</strong></i>
+  {% endif %}
   <p>{{ post.content | markdownify }}</p>
 </article>
 
