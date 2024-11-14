@@ -111,7 +111,7 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 * `sticky_camera_fix`: Stops viewing previous sticky cam/exiting when attempting to fire a new camera. This entirely removes the context menu, so you will need to use the previous camera bind
 * `override_console_key`: Changes the key to open the console to the number to the left of 1
 * `lod`: Determines how far away models become lower quality. The stock game uses 1.0
-* `list_on_reloaded_master_server`: Setting to 'false' stops your server from being added to the Reloaded master server list. Wait 1 minute after turning this off to be sure the previous registration has expired
+* `list_on_reloaded_master_server`: Setting to `false` stops your server from being added to the Reloaded master server list. Wait 1 minute after turning this off to be sure the previous registration has expired
 * `server_list`: Specify `IP:PORT` of servers which aren't on the master server. Do not add a `,` after the last IP:PORT you specify.
 Example: 
 ~~~json
