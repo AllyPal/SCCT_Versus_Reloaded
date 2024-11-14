@@ -46,6 +46,7 @@ _For more changes see the Extended Change Log below_
 1. You will be prompted to replace `SCCT_Versus.exe` and should select `Yes`
 1. Run `SCCT_Versus.exe` - check the [help]({{ site.baseurl }}/help) section if you have any errors
 1. Open the console (tilde (~) or backtick (\`) key) and type `help` to view available commands
+1. Press the Escape key to close the console.
 
 <p class="download">
   <a class="btn btn-dark btn-lg get-started-btn" href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v1.1/SCCT.Versus.Reloaded.1.1.zip" role="button">Download</a>
@@ -78,6 +79,7 @@ This release is bundled with SCCT Enhanced 3.4, so you just need to run your gam
 * Fixes bug where some soft body actors (e.g. hanging fabric) would move forever once disturbed (was much worse at high FPS)
 * Fixed high FPS bug where screen shake would last far longer than it should
 * Fixes bug where some players had no ambient noise
+* The game no longer runs too fast when alt tabbed.  This was causing all sorts of bugs when hosting
 
 ###### Graphics
 * Includes d3d8to9 to add Gsync/Freesync support
