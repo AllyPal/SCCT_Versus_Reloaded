@@ -8,7 +8,7 @@ categories: releases
 _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is compatible with the stock game and [SCCT Enhanced](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/)._
 
 #### New Features
-* Added a new master server (Ubisoft went offline in 2014)
+* Added a new master server (Ubisoft went offline in 2016)
 * Fixed "Instas" where grenades explode before they should
 * Added support for high FPS and fixed numerous bugs that made high FPS unusable
 * Increased frame timing stability and reduced input lag
