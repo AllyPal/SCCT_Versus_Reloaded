@@ -44,7 +44,7 @@ _For more changes see the Extended Change Log below_
 1. Go to your `Versus/System` directory
 1. Extract the contents of the zip into this directory
 1. You will be prompted to replace `SCCT_Versus.exe` and should select `Yes`
-1. Run `SCCT_Versus.exe`
+1. Run `SCCT_Versus.exe` - check the [help]({{ site.baseurl }}/help) section if you have any errors
 1. Open the console (tilde (~) or backtick (\`) key) and type `help` to view available commands
 
 <p class="download">

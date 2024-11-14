@@ -107,6 +107,7 @@ share-links-active:
 navbar-links:
   Downloads: "index"
   Help: "help"
+  License: "license"
   About: "about"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
