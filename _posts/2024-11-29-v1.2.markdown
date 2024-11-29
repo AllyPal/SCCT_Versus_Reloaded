@@ -18,6 +18,7 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 
 <hr />
 #### Install instructions
+
 1. Go to your `Versus/System` directory 
 1. Extract the contents of the zip into this directory
 1. You will be prompted to replace `SCCT_Versus.exe` and should select `Yes`
@@ -25,9 +26,12 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 1. Open the console (tilde (~) or backtick (\`) key) and type `help` to view available commands
 1. Press the Escape key to close the console.
 
+
 <p class="download">
   <a class="btn btn-dark btn-lg get-started-btn" href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v1.2/SCCT.Versus.Reloaded.1.2.zip" role="button">Download</a>
 </p>
+
+Having trouble upgrading SCCT Enhanced?  Watch the [video installation guide](https://youtu.be/2yYDhbzFw60)
 
 <hr />
 #### Featured Changes
