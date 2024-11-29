@@ -20,10 +20,15 @@ layout: page
 
 <div class="post-navigation">
   {% if post.previous %}
-    <a href="{{ post.previous.url }}" class="previous-post">Older Build: {{ post.previous.title }}</a>
+  <p class="previous">
+    <a class="btn btn-dark btn-lg get-started-btn" href="{{ post.previous.url }}" role="button">< Previous Release</a>
+  </p>
   {% endif %}
   {% if post.next %}
-    <a href="{{ post.next.url }}" class="next-post">Newer Build: {{ post.next.title }}</a>
+
+  <p class="nextx">
+    <a class="btn btn-dark btn-lg get-started-btn" href="{{ post.next.url }}" role="button">Next Release ></a>
+  </p>
   {% endif %}
 </div>
 
