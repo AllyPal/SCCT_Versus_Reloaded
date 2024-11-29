@@ -21,13 +21,13 @@ layout: page
 <div class="post-navigation">
   {% if post.previous %}
   <p class="previous">
-    <a class="btn btn-dark btn-lg get-started-btn" href="{{ post.previous.url }}" role="button">< Previous Release</a>
+    <a class="btn btn-dark btn-lg get-started-btn" href="{{ site.baseurl }}/{{ post.previous.url }}" role="button">< Previous Release</a>
   </p>
   {% endif %}
   {% if post.next %}
 
   <p class="next">
-    <a class="btn btn-dark btn-lg get-started-btn" href="{{ post.next.url }}" role="button">Next Release ></a>
+    <a class="btn btn-dark btn-lg get-started-btn" href="{{ site.baseurl }}/{{ post.next.url }}" role="button">Next Release ></a>
   </p>
   {% endif %}
 </div>
@@ -38,7 +38,7 @@ layout: page
   <li class="page-item previous">
     <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
       <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-      <span class="d-none d-sm-inline-block">Newer Posts</span>
+      <span class="d-none d-sm-inline-block">Next Release</span>
     </a>
   </li>
   {% endif %}
@@ -46,7 +46,7 @@ layout: page
   <li class="page-item next">
     <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
       <span class="d-none d-sm-inline-block">Older Posts</span>
-      <i class="fas fa-arrow-right" alt="Older Posts"></i>
+      <i class="fas fa-arrow-right" alt="Previous Release"></i>
     </a>
   </li>
   {% endif %}
