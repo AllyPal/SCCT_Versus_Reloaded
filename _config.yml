@@ -110,8 +110,10 @@ share-links-active:
 navbar-links:
   Downloads: "index"
   Features: "features"
+  Donate: "donate"
   Help: "help"
-  License: "license"
+  #License: "license"
+  
   About: "about"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
