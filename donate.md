@@ -28,7 +28,33 @@ Thanks for considering donating to help me keep the master server running and su
             width="24" 
             height="24" 
             style="vertical-align: middle;">
-        PayPal
+        PayPal (GBP)
+    </button>
+    </form>
+  </div>
+
+  <div style="text-align: center;">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+    <input type="hidden" name="hosted_button_id" value="WTYJYC9KSNCRL" />
+    <button type="submit" style="
+        background-color: #0070ba;
+        color: white;
+        border: none;
+        padding: 6px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    ">
+        <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" 
+            alt="PayPal Logo" 
+            width="24" 
+            height="24" 
+            style="vertical-align: middle;">
+        PayPal (USD)
     </button>
     </form>
   </div>
