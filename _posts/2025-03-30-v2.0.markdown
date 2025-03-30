@@ -20,11 +20,12 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 1. Press the Escape key to close the console.
 
 
+If you're looking to play SCCT Versus Enhanced, you should download from the [SCCT Enhanced GitHub](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/).  Watch the [video installation guide](https://youtu.be/FE5F6EUQC-0).
 <p class="download">
   <a class="btn btn-dark btn-lg get-started-btn" href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v2.0/SCCT.Versus.Reloaded.2.0.zip" role="button">Download</a>
 </p>
 
-Having trouble upgrading SCCT Enhanced?  Watch the [video installation guide](https://youtu.be/2yYDhbzFw60)
+
 
 <hr />
 #### Changes
