@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Reloaded v2.1"
+date:   2025-03-31 10:32:42 +0000
+categories: releases
+author: AllyPal
+
+---
+
+_Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is compatible with the stock game and [SCCT Enhanced](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/)._
+
+<hr />
+#### Install instructions
+
+1. Go to your `Versus/System` directory 
+1. Extract the contents of the zip into this directory
+1. You will be prompted to replace `SCCT_Versus.exe` and should select `Yes`
+1. Run `SCCT_Versus.exe` - check the [help]({{ site.baseurl }}/help) section if you have any errors
+1. Press F12 at any point to access the Reloaded settings menu
+
+
+If you're looking to play SCCT Versus Enhanced, you should download from the [SCCT Enhanced GitHub](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/).  Watch the [video installation guide](https://youtu.be/FE5F6EUQC-0).
+<p class="download">
+  <a class="btn btn-dark btn-lg get-started-btn" href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v2.1/SCCT.Versus.Reloaded.2.1.zip" role="button">Download</a>
+</p>
+
+
+<div class="alert alert-secondary">
+  <strong>ℹ️ Note:</strong> This is a hotfix release for Reloaded 2.0 and Enhanced 3.5.<br/>
+  Version 2.0 had a game-breaking bug where motion tracking (red vision) could detect spies through some solid walls.
+</div>
+
+<hr />
+
+#### Changes
+* A new graphical user interface has been added to control game settings (press F12 to activate)
+* Add location on hud for compatible maps (Enhanced updated nearly all maps with locations)
+* Natively fixed lighting without using 3rd party wrappers (e.g. dgVoodoo or 3da)
+* Restored rendering of godray lighting effects (e.g. mercernary flashlight beam)
+* Improved lighting quality
+* Configurable dynamic shadow quality up to 16k resolution
+* Added anisotropic filtering support
+* Fix sound location when turning off ER
+* Allow sniper scope sensitivity to be configured independantly
+* Adjusted grab/neck angle so grabbing Mercenaries from the left side more reliable.
+* Jumps will only lock-on to enemies within 7.5 vertical meters
+* Fix slow exit from sticky cams
+* Fix getting stuck in sticky cams
+* Fix delay in being able to run after viewing from sticky cams
+* Camo will no longer deactivate when performing certain actions (grabbing, hacking, climbing etc) at high FPS
+* Mercenary sniper scope is now more consistent at high FPS when zoomed in
+* The yellow box now lines up with the grey box in motion tracking vision
+* Fixed input when controlling floodlights as mercenary
+* Fixed a bug where Spies couldn't be knocked out or elbowed after interrupting a computer or hacking panel
+* Fixes crash when pressing F7 on some custom maps
+* Fix ping accuracy on the server browser
+* Steam deck: add native resolution support
+* Adds a specific shadow quality setting for the map Terminus due to it's incredibly high demand
+* Added a new GUI to control game settings
+* Default FPS for a Mercenary is now 120 FPS (Spy is still 60)
+* Motion Vision will no longer incorrectly detect moving objects behind solid objects when looking through glass
+* Slight improvement to in-game voice chat quality
+* Incremented the game version of SCCT Versus stock to ensure people are using the same client
+* EAX will be automatically restored on game-launch (can be turned off in game settings)
+* Fixed compatibility with Windows 7
+* Experimental borderless window mode can now be toggled from the GUI
+* Sticky Cam and Cam. Net. zoom levels are now consistent at all frame rates
+* Fixes bug where motion tracking (red vision) could detect spies through some solid walls
+
+#### Enhanced Only Changes
+* Camo. Suit will no longer be detected by security cameras or Motion Vision.
+* Spies using Camo. Suit will no longer be rendered in Motion Vision.
+* Spies using Camo will no longer be highlighted when moving when the merc is in red vision
+* Using the sniper will no longer turn your flashlight off
+
+<hr />
