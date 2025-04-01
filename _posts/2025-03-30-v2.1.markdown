@@ -20,9 +20,32 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 
 
 If you're looking to play SCCT Versus Enhanced, you should download from the [SCCT Enhanced GitHub](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/).  Watch the [video installation guide](https://youtu.be/FE5F6EUQC-0).
-<p class="download">
-  <a class="btn btn-dark btn-lg get-started-btn" href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v2.1/SCCT.Versus.Reloaded.2.1.zip" role="button">Download</a>
-</p>
+
+<div style="margin: 0 0 1.875rem 0;">
+    <a href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v2.1/SCCT.Versus.Reloaded.2.1.zip" target="_top" style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #404040;
+        color: #FFF; 
+        padding: 12px 32px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        gap: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    " onmouseover="this.style.backgroundColor='#0085A1'; this.style.transform='scale(1.05)';" 
+       onmouseout="this.style.backgroundColor='#404040'; this.style.transform='scale(1)';">
+        Download
+    </a>
+</div>
+
 
 
 <div class="alert alert-secondary">
