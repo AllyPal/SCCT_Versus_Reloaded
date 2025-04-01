@@ -7,92 +7,106 @@ permalink: /donate/
 Thanks for considering donating to help me keep the master server running and support my efforts to improve the game.
 
 <div style="display: flex; gap: 20px; align-items: center; justify-content: center;">
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 30px;">
     <form action="https://www.paypal.com/donate" method="post" target="_top">
         <input type="hidden" name="hosted_button_id" value="WTYJYC9KSNCRL" />
         <button type="submit" style="
-            background-color: #0070ba;
-            color: white;
+            background-color: #404040;
+            color: #FFF; 
             border: none;
-            padding: 10px 26px;
-            font-size: 16px;
+            padding: 12px 32px;
+            font-size: 18px;
             font-weight: bold;
-            border-radius: 12px;
+            border-radius: 20px;
             cursor: pointer;
             display: flex;
             align-items: center;
-            gap: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-        " onmouseover="this.style.backgroundColor='#005ea6'; this.style.transform='scale(1.05)';" 
-           onmouseout="this.style.backgroundColor='#0070ba'; this.style.transform='scale(1)';">
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            white-space: nowrap;
+        " onmouseover="this.style.backgroundColor='#0085A1'; this.style.transform='scale(1.05)';" 
+           onmouseout="this.style.backgroundColor='#404040'; this.style.transform='scale(1)';">
             <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" 
                 alt="PayPal Logo" 
-                width="26" 
-                height="26" 
+                width="28" 
+                height="28" 
                 style="vertical-align: middle;">
             PayPal (USD)
         </button>
     </form>
 </div>
 
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 30px;">
     <form action="https://www.paypal.com/donate" method="post" target="_top">
         <input type="hidden" name="hosted_button_id" value="42SG48GP7E7F6" />
         <button type="submit" style="
-            background-color: #0070ba;
-            color: white;
+            background-color: #404040;
+            color: #FFF; 
             border: none;
-            padding: 10px 26px;
-            font-size: 16px;
+            padding: 12px 32px;
+            font-size: 18px;
             font-weight: bold;
-            border-radius: 12px;
+            border-radius: 20px;
             cursor: pointer;
             display: flex;
             align-items: center;
-            gap: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-        " onmouseover="this.style.backgroundColor='#005ea6'; this.style.transform='scale(1.05)';" 
-           onmouseout="this.style.backgroundColor='#0070ba'; this.style.transform='scale(1)';">
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            white-space: nowrap;
+        " onmouseover="this.style.backgroundColor='#0085A1'; this.style.transform='scale(1.05)';" 
+           onmouseout="this.style.backgroundColor='#404040'; this.style.transform='scale(1)';">
             <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" 
                 alt="PayPal Logo" 
-                width="26" 
-                height="26" 
+                width="28" 
+                height="28" 
                 style="vertical-align: middle;">
             PayPal (EUR)
         </button>
     </form>
 </div>
 
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 30px;">
     <form action="https://www.paypal.com/donate" method="post" target="_top">
         <input type="hidden" name="hosted_button_id" value="ZAS99H2ZV25C2" />
         <button type="submit" style="
-            background-color: #0070ba;
-            color: white;
+            background-color: #404040; 
+            color: #FFF;
             border: none;
-            padding: 10px 26px;
-            font-size: 16px;
+            padding: 12px 32px;
+            font-size: 18px;
             font-weight: bold;
-            border-radius: 12px;
+            border-radius: 20px;
             cursor: pointer;
             display: flex;
             align-items: center;
-            gap: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-        " onmouseover="this.style.backgroundColor='#005ea6'; this.style.transform='scale(1.05)';" 
-           onmouseout="this.style.backgroundColor='#0070ba'; this.style.transform='scale(1)';">
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            white-space: nowrap;
+        " onmouseover="this.style.backgroundColor='#0085A1'; this.style.transform='scale(1.05)';" 
+           onmouseout="this.style.backgroundColor='#404040'; this.style.transform='scale(1)';">
             <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" 
                 alt="PayPal Logo" 
-                width="26" 
-                height="26" 
+                width="28" 
+                height="28" 
                 style="vertical-align: middle;">
             PayPal (GBP)
         </button>
     </form>
 </div>
+
+
 
 </div>
 
@@ -112,3 +126,4 @@ Thanks for considering donating to help me keep the master server running and su
             alt="Buy Me a Coffee at ko-fi.com">
     </a>
 </div>
+
