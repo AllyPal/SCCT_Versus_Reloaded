@@ -4,9 +4,9 @@ title: Donate
 permalink: /donate/
 ---
 
-Thanks for considering donating to help me keep the master server running and support my efforts to improve the game.
+Thanks for considering a donation to help me keep the master server running, support my efforts to improve the game, and maintain the EU dedicated servers online.
 
-<div style="display: flex; gap: 20px; align-items: center; justify-content: center;">
+<div style="display: flex; gap: 12px; align-items: center; justify-content: center; flex-wrap: wrap;">
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://www.paypal.com/donate/?hosted_button_id=WTYJYC9KSNCRL" target="_top" style="
         display: inline-flex;
@@ -21,7 +21,7 @@ Thanks for considering donating to help me keep the master server running and su
         text-decoration: none;
         cursor: pointer;
         gap: 12px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
         transition: background-color 0.3s ease, transform 0.2s ease;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -51,7 +51,7 @@ Thanks for considering donating to help me keep the master server running and su
         text-decoration: none;
         cursor: pointer;
         gap: 12px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
         transition: background-color 0.3s ease, transform 0.2s ease;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -81,7 +81,7 @@ Thanks for considering donating to help me keep the master server running and su
         text-decoration: none;
         cursor: pointer;
         gap: 12px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
         transition: background-color 0.3s ease, transform 0.2s ease;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -101,7 +101,7 @@ Thanks for considering donating to help me keep the master server running and su
 
 </div>
 
-
+<br>
   <div style="text-align: center; margin-top: 20px;">
     <a href="https://ko-fi.com/D1D4PA8UX" target="_blank" style="
         display: inline-block;

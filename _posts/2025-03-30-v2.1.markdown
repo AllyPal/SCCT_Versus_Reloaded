@@ -19,8 +19,6 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 1. Press F12 at any point to access the Reloaded settings menu
 
 
-If you're looking to play SCCT Versus Enhanced, you should download from the [SCCT Enhanced GitHub](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/).  Watch the [video installation guide](https://youtu.be/FE5F6EUQC-0).
-
 <div style="margin: 0 0 1.875rem 0;">
     <a href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v2.1/SCCT.Versus.Reloaded.2.1.zip" target="_top" style="
         display: inline-flex;
@@ -35,7 +33,7 @@ If you're looking to play SCCT Versus Enhanced, you should download from the [SC
         text-decoration: none;
         cursor: pointer;
         gap: 12px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
         transition: background-color 0.3s ease, transform 0.2s ease;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -49,8 +47,7 @@ If you're looking to play SCCT Versus Enhanced, you should download from the [SC
 
 
 <div class="alert alert-secondary">
-  <strong>ℹ️ Note:</strong> This is a hotfix release for Reloaded 2.0 and Enhanced 3.5.<br/>
-  Version 2.0 had a game-breaking bug where motion tracking (red vision) could detect spies through some solid walls.
+  <strong>ℹ️ Note:</strong> SCCT Versus Enhanced comes bundled with the latest version of Reloaded. Enhanced can be downloaded from the <a href="https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/">SCCT Enhanced GitHub</a>.
 </div>
 
 <hr />
@@ -78,6 +75,7 @@ If you're looking to play SCCT Versus Enhanced, you should download from the [SC
 * Fixes crash when pressing F7 on some custom maps
 * Fix ping accuracy on the server browser
 * Steam deck: add native resolution support
+* The scoreboard now remembers the last status between rounds
 * Adds a specific shadow quality setting for the map Terminus due to it's incredibly high demand
 * Added a new GUI to control game settings
 * Default FPS for a Mercenary is now 120 FPS (Spy is still 60)
