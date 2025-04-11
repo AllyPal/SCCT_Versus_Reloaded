@@ -4,7 +4,7 @@ title: Donate
 permalink: /donate/
 ---
 
-Thanks for considering a donation to help me keep the master server running, support my efforts to improve the game, and maintain the EU dedicated servers online.
+Thanks for considering a donation to help me keep the master server running, support my efforts to improve the game, and maintain the EU dedicated servers.
 
 <div style="display: flex; gap: 12px; align-items: center; justify-content: center; flex-wrap: wrap;">
 <div style="text-align: center; margin-top: 30px;">
