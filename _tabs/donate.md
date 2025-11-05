@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Donate
-permalink: /donate/
+order: 3
 ---
 
 Thanks for considering a donation to help me keep the master server running and maintain the EU dedicated servers.
@@ -118,4 +118,3 @@ Thanks for considering a donation to help me keep the master server running and 
             alt="Buy Me a Coffee at ko-fi.com">
     </a>
 </div>
-

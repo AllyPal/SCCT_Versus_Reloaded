@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Features
-permalink: /features/
+order: 2
 
 carousels:
   - images: 
@@ -82,45 +82,7 @@ carousels:
 * Fixed spies rubberbanding when getting shot (due to the adrenaline speed boost)
 * When searching for LAN games, a packet is now sent the Reloaded Master server to request games and retrieves internet games
   * Display when a new minor (optional) version of Reloaded is available
-  * Display when a new major version of Reloaded is available
-* When hosting, a registration packet is sent to the Reloaded Master server once per minute to advertise your server
-  * Common hosting errors/warnings are displayed in the chat box
-  * Display when a new minor (optional) version of Reloaded is available
-  * Display when a new major (mandatory) version of Reloaded is available and prevent the server being listed
-* Automatically configures your game with network settings which should support hosting at up to 165 FPS
-
-###### Input
-* Added a new mouse input system:
-  * High polling rate mouse support
-  * No negative acceleration
-  * Fine control over mouse sensitivity (via console commands)
-* Adds a separate sensitivity control for cameras (e.g. sticky cams)
-* Mouse setting has been removed from GUI options and moved to console commands
-* Fixes bug where if you move your mouse too fast, the game ignores your movement
-* Reduced input lag
-* Horizontal and vertical sensitivity can now be synchronized. This feature is disabled by default but can be enabled by typing `scope_sync` true in the console
-
-###### New console commands
-* `fps_client <number>`: Set client FPS between 30 and 240.  Currently 165 and below is recommended due to the merc sniper sway which is only partly fixed
-* `fps_host <number>`: FPS limit whilst hosting
-* `widescreen <True/False>`: applies widescreen aspect ratio fix
-* `ws_fov`: Caps widescreen field of view for people who are sensitive to motion sickness. The default is 105.0 which gives a similar experience to many modern FPS games, but settings up to 112.0 will increase Merc FOV
-* `sens <number>`: Mouse sensitivity during gameplay
-* `sens_cam <number>`: Mouse sensitivity for cam network and sticky cams
-* `sens_menu <number`>: Mouse sensitivity in menus
-* `quit`: Exit the game
-* `help`: Display all available commands
-* `fps_spy` and `fps_merc` allow you to set a FPS limit up to 240 FPS. Merc can have a good experience at 240 FPS, but Spies become more prone movement glitches the higher you go above 120 FPS.
-
-###### SCCT_Versus.config settings
-* `force_max_refresh_rate`: Forces your game to run at your monitor's maximum refresh rate. Prevents bug where your game would flicker repeatedly during launch
-* `labs_borderless_fullscreen`: Experimental feature.  Your game will be stuck in the top left corner if you don't use your monitor's native resolution
-* `security_dep`: Recommended security feature to improve safety whilst playing online
-* `security_acg`: Advanced security feature which may be incompatible with certain software like OBS, so should normally be kept off
-* `sticky_camera_fix`: Stops viewing previous sticky cam/exiting when attempting to fire a new camera. This entirely removes the context menu, so you will need to use the previous camera bind
-* `override_console_key`: Changes the key to open the console to the number to the left of 1
-* `lod`: Determines how far away models become lower quality. The stock game uses 1.0
-* `list_on_reloaded_master_server`: Setting to `false` stops your server from being added to the Reloaded master server list. Wait 1 minute after turning this off to be sure the previous registration has expired
+  - `list_on_reloaded_master_server`: Setting to `false` stops your server from being added to the Reloaded master server list. Wait 1 minute after turning this off to be sure the previous registration has expired
 * `server_list`: Specify `IP:PORT` of servers which aren't on the master server. Do not add a `,` after the last IP:PORT you specify.
 Example: 
 ~~~json
@@ -143,4 +105,3 @@ Example:
 * Opens `SCCT_Versus.ex` and triggers the in-memory patching process
 * Warns you if not installed in the correct location
 * If using the Ubisoft Connect version of SCCT, will prompt you to run the setup script if you haven't
-
