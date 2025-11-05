@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Reloaded v3.0"
+date:   2025-11-05 10:32:42 +0000
+categories: releases
+author: AllyPal
+
+---
+
+_Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is compatible with the stock game and [SCCT Enhanced](https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/)._
+
+<hr />
+#### Install instructions
+
+1. Go to your `Versus/System` directory 
+1. Extract the contents of the zip into this directory
+1. You will be prompted to replace `SCCT_Versus.exe` and should select `Yes`
+1. Run `SCCT_Versus.exe` - check the [help]({{ site.baseurl }}/help) section if you have any errors
+1. Press F12 at any point to access the Reloaded settings menu
+
+
+<div style="margin: 0 0 1.875rem 0;">
+    <a href="https://github.com/AllyPal/SCCT_Versus_Reloaded/releases/download/v3.0/SCCT.Versus.Reloaded.3.0.zip" target="_top" style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #404040;
+        color: #FFF; 
+        padding: 12px 32px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        gap: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    " onmouseover="this.style.backgroundColor='#0085A1'; this.style.transform='scale(1.05)';" 
+       onmouseout="this.style.backgroundColor='#404040'; this.style.transform='scale(1)';">
+        Download
+    </a>
+</div>
+
+
+
+<div class="alert alert-secondary">
+  <strong>ℹ️ Note:</strong> SCCT Versus Enhanced comes bundled with the latest version of Reloaded. Enhanced can be downloaded from the <a href="https://github.com/Joshhhuaaa/EnhancedSCCTVersus/releases/">SCCT Enhanced GitHub</a>.
+</div>
+
+<hr />
+
+#### Changes
+
+<hr />
