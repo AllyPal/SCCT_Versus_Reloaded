@@ -1,0 +1,19 @@
+
+.btn-donate {
+  color: #ffffff !important;
+  font-weight: 500;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.btn-donate .fa-brands {
+  font-size: 1.1em;
+}
+
+.btn.btn-donate.btn-patreon { background-color: #F96854 !important; }
+.btn.btn.btn-donate.btn-paypal  { background-color: #0070BA !important; }
+.btn.btn.btn-donate.btn-kofi    { background-color: #29ABE0 !important; }
+
+.btn.btn-donate.btn-patreon:hover { background-color: #e05a49 !important; color: #ffffff !important; }
+.btn.btn.btn-donate.btn-paypal:hover  { background-color: #005a9c !important; color: #ffffff !important; }
+.btn.btn.btn-donate.btn-kofi:hover    { background-color: #249bc7 !important; color: #ffffff !important; }
