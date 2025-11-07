@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://allypal.github.io/SCCT_Versus_Reloaded/sitemap.xml
