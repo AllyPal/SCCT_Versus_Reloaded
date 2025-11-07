@@ -6,7 +6,8 @@
   padding: 0.5rem 1rem;
 }
 
-.btn-donate .fa-brands {
+.btn-donate .fa-brands,
+.btn-donate .fa-solid {
   font-size: 1.1em;
 }
 
