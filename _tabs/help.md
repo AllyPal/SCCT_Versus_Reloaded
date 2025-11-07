@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Help
-permalink: /help/
+order: 4
 ---
 
 If `SCCT_Versus.exe` will not run after installation, try installing the [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe).

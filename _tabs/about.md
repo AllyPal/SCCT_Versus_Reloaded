@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+order: 5
 ---
 
 Reloaded is an unofficial SCCT Versus patch developed by [AllyPal](https://github.com/AllyPal/).  Originally intended to be a more accurate version of Framer (a tool I released in 2009), the project evolved into something much more as development progressed.
