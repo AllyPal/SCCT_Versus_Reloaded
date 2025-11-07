@@ -38,7 +38,7 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
         text-transform: uppercase;
         letter-spacing: 1px;
         white-space: nowrap;
-    " onmouseover="this.style.backgroundColor='#0085A1'; this.style.transform='scale(1.05)';" 
+    " onmouseover="this.style.backgroundColor='#404040'; this.style.transform='scale(1.05)';" 
        onmouseout="this.style.backgroundColor='#404040'; this.style.transform='scale(1)';">
         Download
     </a>
