@@ -67,7 +67,7 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 *   Added new Lobby Room UI to change the map using previous/next arrows or a drop-down list with categories and search functionality.
 *   Made sticky cams feel more responsive by adding lag compensation.
 *   Increased the velocity threshold for disks to prevent Spies from briefly appearing on radar when climbing poles or ladders.
-*   Grenades are now fully simulated on the server and synchronised to palyers to prevent desyncs.
+*   Grenades are now fully simulated on the server and synchronised to players to prevent desyncs.
 *   Holding use whilst in slow mode (standing/crouched) will try to grab ledges when you fall off - even if you're moving diagonally. This feature is important for ledge hanging on controller, as the spy only grabs a ledge when a single directional input is registered, which can be difficult to do with a thumbstick. On keyboard, it’s only needed when strafing off a ledge while holding two movement keys.
 *   Updated Sticky Camera behavior so that trying to launch one with none left does not switch to a previous camera.
 *   Improved client so that other clients' player locations do not desync as easily.
@@ -84,6 +84,5 @@ _Reloaded is an unofficial patch for Splinter Cell Chaos Theory Versus and is co
 *   In slow mode whilst standing, the spy no longer walks faster while strafing. As a result, proxy mines will no longer get triggered if you move diagonally.
 *   Jumps will now correctly lock-on and snap to nearby enemies when inside a volume actor.
 *   Sticky Cams will now properly play their activation sound for clients when fired in the east direction.
-*   Speculative fix for a rare issue where a client Spy could not pick up a disk due to incorrect interaction rotation.
 *   Fixed a bug where selecting the Camo. Suit and exiting a previous Sticky Camera would automatically use the gadget in slot 2.
 *   Fixed a bug where the Mercenary crosshair would sometimes shift to the side.
