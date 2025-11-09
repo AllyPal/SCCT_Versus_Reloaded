@@ -2,8 +2,11 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "website" ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:

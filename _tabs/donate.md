@@ -19,7 +19,7 @@ Thanks for considering a donation to help me keep the master server running and 
   </a>
   
   <a href="https://ko-fi.com/D1D4PA8UX" class="btn btn-donate btn-kofi" role="button" target="_blank" rel="noopener noreferrer">
-    <i class="fa-solid fa-coffee me-2"></i>Ko-Fi
+    <i class="fa-solid fa-coffee me-2"></i>Ko-fi
   </a>
 
 </div>
