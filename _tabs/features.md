@@ -82,6 +82,10 @@ carousels:
 * Speculative fix for a rare issue where a client Spy could not pick up a disk due to incorrect interaction rotation
 * Fixed a bug where selecting the Camo. Suit and exiting a previous Sticky Camera would automatically use the gadget in slot 2
 * Fixed a bug where the Mercenary crosshair would sometimes shift to the side
+* Fixes bug where if you move your mouse too fast, the game ignores your movement
+* Motion Vision will no longer incorrectly detect moving objects behind solid objects when looking through glass
+* Fixes bug where motion tracking (red vision) could detect spies through some solid walls
+* Fix sound location when turning off Enhanced Reality
 
 ###### Graphics
 * Adds widescreen support for up to 16:9 monitors without stretched 3D and partially fixed 2D elements
@@ -102,6 +106,9 @@ carousels:
 * Steam deck: add native resolution support
 * Adds a specific shadow quality setting for the map Terminus due to it's incredibly high demand
 * The hud is no longer stretched in widescreen resolutions and repositions dynamically to suit the current resolution
+* Improved Enhanced Reality sizing in widescreen
+* Option to force the game to run at the monitor's maximum refresh rate
+* Alternate frame timing mode to improve frame pacing on some systems
 
 ###### Input
 * Added a new mouse input system with high polling rate mouse support, no negative acceleration and fine control over mouse sensitivity
@@ -113,6 +120,8 @@ carousels:
 * The vertical scale for Mercenary Sniper Mode can now be configured through the Reloaded settings
 * Horizontal and vertical sensitivity can now be synchronized
 * Allow sniper scope sensitivity to be configured independantly
+* Mouse sensitivity in menus can be configured
+* Added a separate sensitivity control for cameras (e.g. sticky cams)
 
 ###### UI
 * A new graphical user interface has been added to control game settings (press F12 to activate)
@@ -134,13 +143,14 @@ carousels:
 * Incremented the game version of SCCT Versus stock to ensure people are using the same client
 * Made sticky cams feel more responsive by adding lag compensation
 * Increased the velocity threshold for disks to prevent Spies from briefly appearing on radar when climbing poles or ladders
-* Grenades are now fully simulated on the server and synchronised to palyers to prevent desyncs
+* Grenades are now fully simulated on the server and synchronised to players to prevent desyncs
 * Improved client so that other clients' player locations do not desync as easily
 * A notification sound now plays when a player joins a game session
 * Removed the restriction that prevented a host from starting a game when the other team had no players
 * Players can type `!resign` in chat to forfeit the current round by eliminating their remaining lives
 * The server name is displayed at the bottom of the Lobby Room for clients
 * Improved accuracy of LAN server list ping values
+* Common hosting errors and warnings are now displayed in the chat box
 
 ###### Miscellaneous
 * Enables Data Execution Protection (DEP) by default to enhance online protection
@@ -151,7 +161,7 @@ carousels:
 * Fixed compatibility with Windows 7
 * Experimental borderless window mode can now be toggled from the GUI
 * Sticky Cam and Cam. Net. zoom levels are now consistent at all frame rates
-* Holding use whilst in slow mode (standing/crouched) will try to grab ledges when you fall off
+* Holding use whilst in slow mode (standing/crouched) will try to grab ledges when you fall off - even if you're moving diagonally
 * Updated Sticky Camera behavior so that trying to launch one with none left does not switch to a previous camera
 * The game will now cache the last profile's audio settings for use on the next boot
 
